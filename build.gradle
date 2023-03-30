@@ -33,6 +33,7 @@ dependencies {
 
 	runtimeOnly 'com.mysql:mysql-connector-j' // MySQL
 
+	implementation 'nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect'
 }
 
 tasks.named('test') {
