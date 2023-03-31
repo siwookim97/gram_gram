@@ -1,4 +1,6 @@
 spring:
+  profiles:
+    active: dev
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/gram__dev?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
     username: lldj
